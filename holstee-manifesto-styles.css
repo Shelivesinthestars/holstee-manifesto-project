@@ -1,0 +1,102 @@
+/*Universal code for main and sections*/
+main{
+	background: #000;
+	overflow: auto;
+	width: 444px;
+	padding: 10px;
+}
+
+section{
+	height: 220px;
+	width: 220px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	border: 1px dotted #000;
+}
+
+/*This is the code for the blue tiles*/
+.tiles-blue{
+	background: #00A3CC;	
+}
+
+.tiles-blue p{
+	padding: 20px;
+	font-family: 'Anton', cursive;
+	font-size: 24px;
+	line-height: 35px;
+	word-spacing: 3px;
+}
+
+.tiles-blue span{
+	text-decoration: line-through;
+	font-size: 28px;
+	font-style: italic;
+	color: #000;
+	text-transform: uppercase;
+}
+
+/*This is the code for the GREEN tiles*/
+.tiles-green{
+	background: #41DB00;
+	
+}
+
+.tiles-green p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	color: #000;
+	
+}
+
+.tiles-green span{
+	text-decoration: underline;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.tiles-green p{
+	padding: 15px 10px 30px 10px;
+	line-height: 27px;
+
+}
+
+
+/*This is the code for the purple tiles*/
+
+.tiles-purple{
+	background: #7D00CC;
+	font-family: 'Pacifico', cursive;
+}
+
+.tiles-purple p{
+	padding : 0px 15px 10px 15px;
+	color: #000;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.tiles-purple span{
+	font-size: 25px;
+	text-decoration: underline;
+	color: #fff;
+
+	
+}
+	
+/*This is the code for the PINK tiles*/
+
+.tiles-pink{
+	background: #F40076;
+}
+
+.tiles-pink p{
+	font-family:'Merienda', cursive;
+	padding: 10px 15px 10px 15px
+}
+
+.tiles-pink span{
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	color: #000;
+}
